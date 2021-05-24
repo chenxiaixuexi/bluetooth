@@ -25,6 +25,7 @@ DOMAINS = {
 if __name__== '__main__':
 
     global Ra,Tb,p,n,b,x,y,c_p,c_q,c_n,M1,M2,M3,Ka,macb
+    # A is client and connect TCP by server's ip address
     server_ip = "192.168.137.1"
     server_port = 9001
 
